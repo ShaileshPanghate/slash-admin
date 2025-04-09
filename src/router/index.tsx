@@ -6,7 +6,7 @@ import { usePermissionRoutes } from "@/router/hooks";
 import { ERROR_ROUTE } from "@/router/routes/error-routes";
 import { ErrorBoundary } from "react-error-boundary";
 import { Navigate, type RouteObject, createHashRouter } from "react-router";
-import { RouterProvider } from "react-router/dom";
+import { RouterProvider } from "react-router-dom";
 import type { AppRouteObject } from "#/router";
 
 const { VITE_APP_HOMEPAGE: HOMEPAGE } = import.meta.env;
